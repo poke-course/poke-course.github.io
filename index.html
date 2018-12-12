@@ -6,16 +6,31 @@
 -->
 <html>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-130875514-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-130875514-1");
+    </script>
+
     <title>戳戳課｜專為學生設計的課程分享平台</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
-		/>
-		<meta property="og:title" content="戳戳課｜專為學生設計的課程分享平台" />
-		<meta property="og:description" content="專為學生設計的課程分享平台" />
-		<meta property="og:url" content="https://poke-course.github.io/" />
-		<meta property="og:image" content="https://i.imgur.com/iQR5WR2.png" />
+    />
+    <meta property="og:title" content="戳戳課｜專為學生設計的課程分享平台" />
+    <meta property="og:description" content="專為學生設計的課程分享平台" />
+    <meta property="og:url" content="https://poke-course.github.io/" />
+    <meta property="og:image" content="https://i.imgur.com/iQR5WR2.png" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -50,7 +65,9 @@
           <p>
             從過去的<strong>學士班</strong>，到最近的<strong>跨域學士班</strong>和<strong>實驗教育方案</strong>，甚至未來的<strong>客製化學程</strong>。清大除了多元入學，更可以多元畢業。
           </p>
-          <!-- <span class="image main"><img src="images/pic02.jpg" alt=""/></span> -->
+          <!--
+            <span class="image main"><img src="images/pic02.jpg" alt=""/></span>
+          -->
         </div>
       </section>
 
@@ -149,7 +166,14 @@
             <strong>你的回饋是我們開發的動力</strong>
           </p>
           <ul class="actions">
-            <li><a href="https://pse.is/D5CN2" target="_blank" class="button primary large">我有興趣</a></li>
+            <li>
+              <a
+                href="https://pse.is/D5CN2"
+                target="_blank"
+                class="button primary large"
+                >我有興趣</a
+              >
+            </li>
           </ul>
         </div>
       </section>
